@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+.glass {
+    backdrop-filter: blur(12px);
+    background: rgba(255,255,255,0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    animation: fadeIn 1s ease-in;
+}
+
+/* GRID */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 20px;
+}
+
+/* CARDS */
+.card {
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s;
+    animation: fadeUp 1s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* HERO */
+.hero {
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    animation: zoomIn 1.2s ease;
+}
+
+.overlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.7)
+    );
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* SECTIONS */
+.section {
+    padding: 30px;
+    animation: fadeUp 1s ease;
+}
+
+/* GRID INSIDE */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* CARDS INSIDE */
+.card2 {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card2 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.card2:hover img {
+    transform: scale(1.1);
+}
+
+.card2 h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0.6);
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+/* DOS DONT'S */
+.dos-donts {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1;
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* ANIMATIONS */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.tagline {
+    font-size: 18px;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+.section { 
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1); 
+}
+.section:last-child {
+    border-bottom: none;
+}
+.hero {
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(1.1) contrast(1.1);
+}
+.hero {
+    background-blend-mode: overlay;
+}
