@@ -81,7 +81,7 @@ No additional dependencies or installation are required.
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![CulturaGo Home](screenshots/homepage.png.png)
+![CulturaGo Home](homepage.png.png)
 
 ### 🌏 Telangana
 ![CulturaGo Telangana](screenshots/telangana.png.png)
