@@ -84,7 +84,8 @@ No additional dependencies or installation are required.
 ![CulturaGo Home](homepage.png.png)
 
 ### 🌏 Telangana
-![CulturaGo Telangana](screenshots/telangana.png.png)
+![CulturaGo Telangana](telangana.png1.png)
+![CulturaGo Telangana]
 
 ## 🎯 Project Goal
 
