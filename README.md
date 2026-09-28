@@ -93,7 +93,7 @@ No additional dependencies or installation are required.
 ![Foods to Try](foods.png)
 
 ### ✅ DO's and ❌ DONT's
-![Do's and Dont's](
+![Do's and Dont's](do'sandont's.png)
 ## 🎯 Project Goal
 
 The goal of CulturaGo is to create a simple digital space where users can explore different aspects of Indian culture through states, destinations, food, and visual content.
