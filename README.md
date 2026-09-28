@@ -87,7 +87,7 @@ No additional dependencies or installation are required.
 ![CulturaGo Telangana](telangana.png1.png)
 
 ### 📍 Places to Visit
-![Places to Visit]
+![Places to Visit](placestovisit.png)
 
 ## 🎯 Project Goal
 
