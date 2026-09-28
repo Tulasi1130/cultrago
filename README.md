@@ -80,7 +80,11 @@ No additional dependencies or installation are required.
 
 ## 📸 Screenshots
 
-Screenshots of the website will be added here.
+### 🏠 Home Page
+![CulturaGo Home](screenshots/homepage.png.png)
+
+### 🌏 Telangana
+![CulturaGo Telangana](screenshots/telangana.png.png)
 
 ## 🎯 Project Goal
 
