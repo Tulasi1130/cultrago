@@ -163,7 +163,7 @@ Visit CulturaGo
 
 💻 Run Locally
 Clone the repository:
-git clone https://github.com/harshithakothi/cultrago.git
+git clone https://github.com/Tulasi1130/cultrago.git
 Open the project folder.
 
 Open index.html in a web browser.
